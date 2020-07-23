@@ -1,0 +1,88 @@
+@font-face
+{
+    font-family: fontePrincipal;
+    src: url("../fontes/OpenSans-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: fonteTitulo;
+    src: url("../fontes/OpenSans-Bold.ttf");
+}
+
+.Bracket
+{
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    margin-top: 60px
+}
+
+.informacaoJogador
+{
+    border: 3px solid black;
+    height: 230px;
+    width: 395px;
+    background-color: rgba(16, 138, 214, 0.3);
+}
+
+
+.informacaoJogador .fotoJogadorUm
+{
+    clear: both;
+    width: 150px;
+    float: left;
+}
+
+.informacaoJogador .fotoJogadorDois
+{
+    width: 150px;
+    float: left;
+}
+
+.placar
+{
+    float: left;
+    text-align: center;
+    font-family: fonteTitulo;
+}
+
+.placar h1
+{
+    color: black;
+}
+
+.informacaoJogador .racaJogadorUm
+{
+    margin-left: 43px; 
+    float: left;
+    clear: left;
+}
+
+.informacaoJogador .racaJogadorDois
+{
+    margin-left: 175px;
+    float: left;
+}
+
+.scrollHorizontal a
+{
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.scrollHorizontal
+{
+    text-align: center;
+    margin-top: 75px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollHorizontal .informacaoJogador
+{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}

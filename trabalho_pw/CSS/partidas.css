@@ -1,0 +1,68 @@
+.informacaoJogador .jogadorUm
+{
+    margin-top: 60px;
+    width: 15%;
+    float: left;
+}
+
+.jogadorUm .fotoJogadorUm
+{
+    width: 100%;
+}
+
+.jogadorUm .nacionalidade_jogador_um
+{
+    float: left;
+    width: 45%;
+    margin-left: 45px;
+}
+
+.jogadorUm .racaJogadorUm
+{
+    float: left;
+    clear: left;
+    width: 45%;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.video
+{
+    width: 70%;
+    margin-top: 60px;
+    float: left;
+}
+
+.video video
+{
+    width: 100%;
+
+}
+
+.informacaoJogador .jogadorDois
+{
+    margin-top: 60px;
+    width: 15%;
+    float: left;
+}
+
+.jogadorDois .fotoJogadorDois
+{
+    width: 100%;
+}
+
+.jogadorDois .nacionalidade_jogador_dois
+{
+    float: left;
+    width: 45%;
+    margin-left: 45px;
+}
+
+.jogadorDois .racaJogadorDois
+{
+    float: left;
+    clear: left;
+    width: 45%;
+    margin-top: 25px;
+    margin-left: 45px;
+}

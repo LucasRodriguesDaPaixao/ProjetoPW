@@ -1,0 +1,48 @@
+@font-face
+{
+    font-family: fontePrincipal;
+    src: url("../fontes/OpenSans-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: fonteTitulo;
+    src: url("../fontes/OpenSans-Bold.ttf");
+}
+
+body
+{
+    background-image: url("../imagens/ImagemFundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.BarraFixa
+{
+    top: 0px;
+    width: 27%;
+    height: 10%;
+    float: left;
+    position: fixed;
+    font-family: fonteTitulo;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: rgb(255, 255, 255);
+}
+
+.BarraFixa ul li
+{
+    display: inline-block;
+}
+
+.BarraFixa ul li a
+{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.BarraFixa ul li a:hover
+{
+    color: cyan;
+}
